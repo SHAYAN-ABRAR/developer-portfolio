@@ -9,6 +9,10 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 .nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
@@ -78,7 +82,8 @@ p {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 130px auto;
+    width: 60%;
 }
 
 .section-title {
@@ -89,8 +94,75 @@ p {
 }
 
 .section-description {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-description {
+    font-weight: 700;
+}
+
+.info-title {
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+.what-i-do {
+    padding: 30px 400px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skill-container {
+    display: flex;
+    padding: 0 200px;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-coloumn-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.resume-column{
+    padding: 0 130px;
+}
+.resume-container{
+    display: flex;
+    
+}
+.resume-item.title{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.resume-item-company{
+    padding-bottom: 50px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
