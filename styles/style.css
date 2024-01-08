@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav>ul>li{
+    display: inline;
+
+}
+
+nav li>a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:0;
+    color: white;
+    font-size: 20x;
+    font-weight: 700;
+    padding: 15px 35px;
+}
