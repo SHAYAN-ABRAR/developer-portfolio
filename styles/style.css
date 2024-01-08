@@ -9,7 +9,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -138,31 +138,67 @@ p {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume-coloumn-title{
+
+.resume-coloumn-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 
 }
-.resume-column{
+
+.resume-column {
     padding: 0 130px;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
-    
+
 }
-.resume-item.title{
+
+.resume-item.title {
     font-size: 25px;
     font-weight: 700;
-    
+
 }
-.resume-item-company{
+
+.resume-item-company {
     padding-bottom: 50px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0;
+}
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-column-one,
+.footer-column-two {
+    width: 50%;
+}
+
+
+
+.footer-icon{
+    justify-content: space-between;
+}
+.contact input, textarea{
+    border-radius: 5px;
+    border:0;
+    background: #FFF;
+    display: block;
+    padding: 18px 35px;
+    width: 100%;
+}
+.footer-icon>a{
+   padding: 24px;
 }
