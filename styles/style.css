@@ -103,6 +103,7 @@ p {
 .about-info-container {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .about-info {
@@ -201,4 +202,47 @@ footer {
 }
 .footer-icon>a{
    padding: 24px;
+}
+
+@media screen and (max-width:576px){
+    .skill-container, .resume-container{
+        flex-direction: column;
+        padding: 5px;
+        
+    }
+    .what-i-do{
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .footer-column-one,
+.footer-column-two {
+    width: 80%;
+}
+.about-info-container{
+    flex-direction: column;
+}
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .skill-container, .resume-container{
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .what-i-do{
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 100px;
+        flex-direction: column;
+    }
+    .footer-column-one,
+.footer-column-two {
+    width: 80%;
+}
+
+
+    
 }
